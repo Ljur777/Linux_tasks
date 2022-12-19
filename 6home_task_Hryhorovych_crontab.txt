@@ -1,0 +1,85 @@
+15* * * *  /bin/bash /opt/43_44_morning/hryhorovych/taskHRYHOROVYCH.sh
+
+$ ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+Last login: Wed Dec  7 12:17:00 2022 from ip-088-152-187-025.um26.pools.vodafone-ip.de
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+32 package(s) needed for security, out of 44 available
+Run "sudo yum update" to apply all updates.
+[ec2-user@ip-172-31-33-20 ~]$ cd /opt/43_44_morning
+[ec2-user@ip-172-31-33-20 43_44_morning]$ ls
+alex                Arthur          grisha       Kamran      Ruslan   vasylkov
+AnatoliiSidorenco   chumak          Horbunov     Ndrew       seyde    Yuliia
+Anatolii_Sydorenko  darynaTsomenko  hryhorovych  Olha        shynbin  zhukovska
+Anita               eddy            Jan          paul_civic  starta
+[ec2-user@ip-172-31-33-20 43_44_morning]$ vim
+[ec2-user@ip-172-31-33-20 43_44_morning]$ nano
+[ec2-user@ip-172-31-33-20 43_44_morning]$ cd hryhorovych
+[ec2-user@ip-172-31-33-20 hryhorovych]$ vin taskHRYHOROVYCH.sh
+-bash: vin: command not found
+[ec2-user@ip-172-31-33-20 hryhorovych]$ vim taskHRYHOROVYCH.sh
+[ec2-user@ip-172-31-33-20 hryhorovych]$ chmod +x taskHRYHOROVYCH.sh
+[ec2-user@ip-172-31-33-20 hryhorovych]$ .taskHRYHOROVYCH.sh
+-bash: .taskHRYHOROVYCH.sh: command not found
+[ec2-user@ip-172-31-33-20 hryhorovych]$ ls -la
+total 88
+drwxrwxr-x  2 ec2-user ec2-user    67 Dec  7 12:39 .
+drwxrwxr-x 25 ec2-user ec2-user  4096 Dec  7 12:41 ..
+-rw-rw-r--  1 ec2-user ec2-user 77532 Dec  6 22:14 output.txt
+-rwxr--r--  1 ec2-user ec2-user    36 Dec  5 12:50 script.sh
+-rwxrwxr-x  1 ec2-user ec2-user   105 Dec  7 12:39 taskHRYHOROVYCH.sh
+[ec2-user@ip-172-31-33-20 hryhorovych]$ ^C
+[ec2-user@ip-172-31-33-20 hryhorovych]$ ././task
+-bash: ././task: No such file or directory
+[ec2-user@ip-172-31-33-20 hryhorovych]$ ./taskHRYHOROVYCH.sh
+1
+12_43_39
+2
+12_43_39
+3
+12_43_39
+4
+12_43_39
+5
+12_43_39
+6
+12_43_39
+7
+12_43_39
+8
+12_43_39
+9
+12_43_39
+10
+12_43_39
+[ec2-user@ip-172-31-33-20 hryhorovych]$ ls -la
+total 88
+drwxrwxr-x  2 ec2-user ec2-user   248 Dec  7 12:43 .
+drwxrwxr-x 25 ec2-user ec2-user  4096 Dec  7 12:41 ..
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 10_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 1_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 2_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 3_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 4_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 5_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 6_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 7_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 8_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user     0 Dec  7 12:43 9_12_43_39
+-rw-rw-r--  1 ec2-user ec2-user 77532 Dec  6 22:14 output.txt
+-rwxr--r--  1 ec2-user ec2-user    36 Dec  5 12:50 script.sh
+-rwxrwxr-x  1 ec2-user ec2-user   105 Dec  7 12:39 taskHRYHOROVYCH.sh
+[ec2-user@ip-172-31-33-20 hryhorovych]$ nano taskHRYHOROVYCH.sh
+[ec2-user@ip-172-31-33-20 hryhorovych]$ crontab -e
+crontab: installing new crontab
+You have new mail in /var/spool/mail/ec2-user
+[ec2-user@ip-172-31-33-20 hryhorovych]$ crontab -e
+crontab: no changes made to crontab
+You have mail in /var/spool/mail/ec2-user
+[ec2-user@ip-172-31-33-20 hryhorovych]$ nano taskHRYHOROVYCH.sh
+
+
